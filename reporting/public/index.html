@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reporting Service for itAcademy2</title>
+    <link rel="stylesheet" href="libs/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="libs/jquery/jquery-2.2.3.min.js"></script>
+    <script src="libs/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs/angular-1.5.3/angular.min.js"></script>
+    <script type="text/javascript" src="libs/angular-1.5.3/angular-route.min.js"></script>
+    <script type="text/javascript" src="libs/d3/d3.min.js"></script>
+    <script type="text/javascript" src="libs/angular-smart-table/2.1.8/smart-table.min.js"></script>
+    <link rel="stylesheet" href="libs/ng-table/1.0.0-beta.9/ng-table.min.css">
+    <script src="libs/ng-table/1.0.0-beta.9/ng-table.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <base href="/">
+</head>
+<body ng-app="reports">
+<nav class="container navbar navbar-default">
+    <ul class="nav navbar-nav">
+        <li><a href="bank">Bank</a></li>
+        <li><a href="warehouse">Warehouse</a></li>
+        <li><a href="shop">Shop</a></li>
+    </ul>
+</nav>
+<main class="container">
+    <div ng-view></div>
+</main>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.product {
+  width: 210px;
+  margin: 15px 10px 10px 10px;
+}
+
+.error {
+  margin-top: 15px;
+}
+
+.register {
+  margin-left: 20px;
+}
+
+[ng-click] {
+  cursor: pointer;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-buy > span {
+  float: left;
+}
+
+.item-buy > a {
+  float: right;
+}
